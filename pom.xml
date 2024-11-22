@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>>>>>>> 4785363df75fd200695af804efebec94db2725f7
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>3.3.6-SNAPSHOT</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
@@ -29,10 +34,23 @@
 	</scm>
 	<properties>
 		<java.version>17</java.version>
+=======
+		<version>3.3.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.in28minutes</groupId>
+	<artifactId>learn-spring-framework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>learn-spring-framework</name>
+	<description>Demo project for Spring Boot</description>
+	<properties>
+		<java.version>21</java.version>
+>>>>>>> 4785363df75fd200695af804efebec94db2725f7
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<dependency>
@@ -54,10 +72,17 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+=======
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+>>>>>>> 4785363df75fd200695af804efebec94db2725f7
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 
 		<dependency>
 			<groupId>org.springdoc</groupId>
@@ -90,6 +115,8 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
 		</dependency>
+=======
+>>>>>>> 4785363df75fd200695af804efebec94db2725f7
 	</dependencies>
 
 	<build>
@@ -102,16 +129,26 @@
 	</build>
 	<repositories>
 		<repository>
+<<<<<<< HEAD
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
 			<url>https://repo.spring.io/snapshot</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
+=======
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+>>>>>>> 4785363df75fd200695af804efebec94db2725f7
 		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
+<<<<<<< HEAD
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
 			<url>https://repo.spring.io/snapshot</url>
@@ -122,3 +159,15 @@
 	</pluginRepositories>
 
 </project>
+=======
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
+</project>
+>>>>>>> 4785363df75fd200695af804efebec94db2725f7
